@@ -1,0 +1,82 @@
+////////////////////////1.SORU//////////////////////////
+{ 
+ int a,b,c;
+ console.write("kaçtan artacağını giriniz : ");
+ a = convert.ToInt32(console.readline());
+ console.write("kaça kadar artacağını giriniz : ");
+ b = convert.ToInt32(console.readline());
+ console.write("kaçar kaçar artacağını giriniz : ");
+ c = convert.ToInt32(console.readline());
+
+ for ( int i=a; i<=b; i+=c)
+ {
+   console.writeline(i);
+ }
+
+}
+
+
+///////////SORU2///////////////////////
+{ 
+ int a,b,c;
+ console.write("kaçtan azalacağını giriniz : ");
+ a = convert.ToInt32(console.readline());
+ console.write("kaça kadar azalacağını giriniz : ");
+ b = convert.ToInt32(console.readline());
+ console.write("kaçar kaçar azalacağını giriniz : ");
+ c = convert.ToInt32(console.readline());
+
+ for ( int i=a; i>=b; i-=c)
+ {
+   console.writeline(i);
+ }
+
+}
+
+
+///////////3.SORU//////////////////////////////////////////////////////////
+
+
+{ 
+console.write("Kendisini ve karesine kadar almak istediğiniz sayıyı giriniz : ");
+int n =  convert.ToInt32(console.readline());
+
+for (int i =1; i<=n;i++)
+    {
+    int b = i*i;
+    console.writeline(i + " " + b);
+   }
+}
+
+
+////////////////4.SORU/////////////////////
+{
+            Console.Write("Kaça kadar tek sayı yazılsın  : ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            
+            for (int i = 0; i <= n; i++)
+                {
+                    if (i % 2 == 1)
+                    {
+                        Console.WriteLine(i);
+                    }
+
+                }
+
+}
+
+////////////////////////5.SORU////////////////////////////
+{
+            Console.Write("Kaça kadar çift sayı yazılsın  : ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            
+            for (int i = 0; i <= n; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        Console.WriteLine(i);
+                    }
+
+                }
+
+}
